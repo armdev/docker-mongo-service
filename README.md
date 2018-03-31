@@ -2,15 +2,19 @@
 docker service for mongodb
 
 1. Run mongodb
+
    docker-compose up -d --build
 
 2. Create mongodb service 
+
    docker service create --name mongodb mongo
   
 3. Scale MongoDB
+
    docker service scale mongodb=3
    
 4. docker services list
+
    docker service ls
 
 5. remove docker service   
