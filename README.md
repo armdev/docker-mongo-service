@@ -1,9 +1,19 @@
 # docker-mongo-service
 docker service for mongodb
 
-1. Run mongodb
+Youu should have pre-installed java, maven, docker
+
+1. Run mongodb & java app.
 
    docker-compose up -d --build
+   
+   access link   
+     http://docker-machine-ip:5008/api/v2/person/save  // save 10000 record to mongodb
+     http://192.168.99.100:5008/api/v2/person/find/age?age=18
+     http://192.168.99.100:5008/api/v2/person/find/age/range?startAge=11&endAge=100
+
+#####################
+How to scale mongoDB using docker !!!
 
 2. Create mongodb service 
 
