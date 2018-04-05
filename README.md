@@ -10,6 +10,7 @@ Youu should have pre-installed java, maven, docker
    access link   
      http://docker-machine-ip:5008/api/v2/person/save  // save 10000 record to mongodb
      http://192.168.99.100:5008/api/v2/person/find/age?age=18
+     
      http://192.168.99.100:5008/api/v2/person/find/age/range?startAge=11&endAge=100
 
 #####################
